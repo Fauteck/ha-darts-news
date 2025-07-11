@@ -1,0 +1,14 @@
+name: SportsDevs Darts Spiele
+version: "1.0"
+slug: sportsdevs_darts
+description: Holt tagesaktuelle Darts-Spiele über die SportDevs API und speichert sie als JSON
+startup: once
+boot: auto
+options:
+  api_key: "wQxoqAnPwkWR_OYS_JUr_w"
+schema:
+  api_key: str
+init: false
+host_network: true
+map:
+  - share:rw
